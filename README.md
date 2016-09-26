@@ -1,6 +1,7 @@
 /**
  * Created by jerry on 2016-09-26.
  */
+
 由于在jquery1.9以上的版本文件模块化以后（AMD的加载方式），全局作用域已经不存在jquery或者$了。而seajs的加载方式CMD的加载方式，就必须手动将他们封装成CMD模块.
 
 1）直接对jquery进行使用
