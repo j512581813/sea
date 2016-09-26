@@ -6,6 +6,7 @@
 		seajs.use('jquery'),define(function() {	
 	    	$('body').css({'background':'red'});
 		});
+		
 2）在使用seajs.use之前加上
 		define.amd = true;
 		seajs.config({
