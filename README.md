@@ -1,2 +1,2 @@
 # sea
-load js ways
+load js ways  ing
