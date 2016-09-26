@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/sea.js" ></script>
+	</head>
+	<script type="text/javascript">
+/*第一种加载jq的方式*/
+//		seajs.config({
+//		    alias: {
+//		      "jquery":"jquery-1.10.2.min.js"
+//		    }
+//			
+//		});
+//	 	define.amd = true;
+//		seajs.use('./main')
+/*第二种加载jq的方式*/	
+		seajs.config({
+		    alias: {
+		      "jquery":"jquery"
+		    }
+			
+		});
+		
+		seajs.use('./main');
+		
+		
+/*第三种直接用*/	
+//		seajs.use('jquery'),define(function() {	
+//	    	$('body').css({'background':'red'});
+//		});
+
+	</script>
+	<body>
+		
+	</body>
+</html>
